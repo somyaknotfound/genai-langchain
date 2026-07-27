@@ -1,0 +1,3 @@
+# Core practice agent needs only the Python standard library.
+# Install this ONLY if you want LLM-tailored practice sets (tiered models).
+anthropic>=0.40.0

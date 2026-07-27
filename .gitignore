@@ -1,0 +1,19 @@
+# secrets - never commit tokens or keys
+.env
+*.token
+config.local.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# build artifacts (pyinstaller)
+build/
+dist/
+*.spec
+
+# os
+Thumbs.db
+.DS_Store

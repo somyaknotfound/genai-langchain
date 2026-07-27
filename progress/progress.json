@@ -1,0 +1,32 @@
+{
+  "generated": "2026-07-27T18:28:06",
+  "notebooks_seen": 0,
+  "required_total": 28,
+  "required_done": 0,
+  "percent": 0,
+  "frontier_idx": -1,
+  "covered_ids": [],
+  "stages": {
+    "foundations": {
+      "total": 8,
+      "done": 0
+    },
+    "core-genai": {
+      "total": 9,
+      "done": 0
+    },
+    "agents": {
+      "total": 4,
+      "done": 0
+    },
+    "advanced": {
+      "total": 6,
+      "done": 0
+    },
+    "deployment": {
+      "total": 1,
+      "done": 0
+    }
+  },
+  "next_id": "nlp-preprocessing"
+}

@@ -1,0 +1,26 @@
+{
+  "repoUrl": "https://github.com/somyaknotfound/genai-langchain",
+  "branch": "main",
+  "courseUrl": "https://www.udemy.com/course/complete-generative-ai-course-with-langchain-and-huggingface/",
+
+  "practiceCadenceDays": 3,
+  "recentSectionsWindow": 2,
+  "spacedRepetition": true,
+  "autoPush": true,
+
+  "llm": {
+    "enabled": true,
+    "provider": "anthropic",
+    "cheapModel": "claude-haiku-4-5",
+    "strongModel": "claude-sonnet-5",
+    "maxProblems": 6,
+    "note": "Falls back to the offline curated bank automatically if ANTHROPIC_API_KEY is unset or the anthropic package is missing. Cheap model summarizes your notebooks; strong model writes the tailored problems."
+  },
+
+  "obsidian": {
+    "enabled": true,
+    "vaultPath": "C:\\Users\\manam\\OneDrive\\Desktop\\yes\\I think therefore i am",
+    "notesSubdir": "1 - Rough Thoughts\\GenAI LOGS",
+    "addToMainDashboard": true
+  }
+}
